@@ -3,8 +3,8 @@ import {ScrollView, StyleSheet, Text, View} from 'react-native';
 
 const Grid = () => {
     const user = [
-        {id:1, name:"Rohit"},
-        {id:2, name:"Mohit"},
+        {id:1, name:"Sahit"},
+        {id:2, name:"Lohit"},
         {id:3, name:"Nohit"},
         {id:4, name:"Ashit"},
         {id:5, name:"Rohit"},
