@@ -10,9 +10,10 @@ import {AppRegistry} from 'react-native';
 // import FlatListExample from './components/FlatListExample';
 // import Section from './components/Section';
 // import ClassComponent from "./components/ClassComponent"
-import Responsive from './components/Responsive1';
+// import Responsive from './components/Responsive1';
+import ButtonStyle from './components/ButtonStyle';
 
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent(appName, () => Responsive);
+AppRegistry.registerComponent(appName, () => ButtonStyle);
