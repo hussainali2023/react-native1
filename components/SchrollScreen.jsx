@@ -1,0 +1,23 @@
+import { SafeAreaView, ScrollView, Text, TouchableHighlight, View } from "react-native";
+
+const SchrollScreen = () => {
+    return (
+       <SafeAreaView>
+         <ScrollView>
+            <Text style={{fontSize:30, color:"red", margin:7, textAlign:"justify"}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente velit eaque, et placeat amet dignissimos quae reiciendis laboriosam cum totam maxime unde ad? Dolore magni, ipsum dignissimos eum voluptatibus quia. Cupiditate beatae asperiores expedita! Vero distinctio aliquid, ad commodi nesciunt nobis sed! Eveniet, debitis tenetur
+                </Text>
+                <View style={{margin:10}}>
+                    <TouchableHighlight>
+                    <Text  style={{textAlign:"center", padding:10, backgroundColor:"green",color:"white", fontSize:35, borderRadius:15}}>
+                        Click Here
+                    </Text>
+                    </TouchableHighlight>
+                </View>
+                <Text>
+                 dolorum quis temporibus expedita ea quidem cumque laborum, tempore, ducimus veritatis illo iusto ullam beatae omnis impedit? Ipsum reprehenderit dolorem consectetur aliquam voluptatibus obcaecati. Necessitatibus aliquid ea, perspiciatis quod ratione, sit enim quam eos illo autem temporibus obcaecati beatae, molestiae alias aperiam iusto quibusdam. Laborum ex, sequi veniam ipsum vero est esse fugit aliquid enim aperiam, nostrum obcaecati magnam natus nihil quas ut? Tempora temporibus qui nesciunt fugit voluptate impedit error aliquid officiis omnis. Natus aut pariatur inventore corporis asperiores ipsam repellat cum totam at, quas voluptates atque aperiam nihil, eaque alias rerum nesciunt odit nemo voluptate maxime perferendis molestias quam! Voluptatem quasi suscipit consequatur asperiores, consequuntur doloremque eveniet dolorem ut praesentium exercitationem reprehenderit aperiam, sit pariatur quisquam odit eligendi labore ex. Quod iste qui corrupti sint. Porro dolorem, laboriosam numquam reprehenderit excepturi blanditiis illum earum asperiores nemo saepe explicabo corrupti reiciendis possimus, laudantium tenetur? Vitae assumenda eligendi doloremque praesentium reiciendis corporis iste ipsum beatae quas debitis. Incidunt, consequatur? Laudantium eum incidunt aspernatur suscipit sint repudiandae nam et. Quos, eos veniam nam in, culpa non voluptatibus adipisci inventore ipsam dolorem quis quam. Excepturi quia accusamus porro, alias sapiente eaque qui. Ipsam mollitia doloribus ipsum ullam dolorum aspernatur ab corporis harum nobis. Beatae mollitia itaque aliquam praesentium voluptates. Odio vel deserunt accusamus perferendis! Laboriosam, maiores saepe tempore repudiandae quia nihil sunt dicta, voluptas quis hic sint quae consequuntur voluptatem eius! Ullam unde tempora itaque non perspiciatis eaque pariatur mollitia aspernatur sequi ipsum soluta vitae ad, asperiores assumenda dicta ea sit officia iure reprehenderit? In eaque sit et neque sed nostrum modi magni quas ut vero atque delectus, deleniti debitis sint corrupti cupiditate officiis est provident eveniet similique ducimus ipsa porro, inventore consectetur! Sint natus odit sed. Eaque delectus numquam quas cumque eligendi repudiandae repellendus optio ex omnis, dolor qui, aut, minus rerum pariatur! Pariatur perspiciatis nobis quam magnam, possimus ad accusamus doloribus qui expedita ea architecto dolores ex velit, rem aut non, facere sapiente nihil voluptas. Asperiores ea voluptate commodi optio quod maxime dolor dignissimos quas repellat, neque blanditiis. Eos quibusdam, voluptatem maiores nam numquam nobis commodi praesentium ipsa animi, fuga ducimus cupiditate! Optio laudantium iste sit deserunt quod id, nisi, obcaecati repudiandae ullam totam quasi ipsum? Quasi amet suscipit accusantium consequuntur, neque fuga earum tenetur dolorem eos, in sed molestias laudantium repellendus distinctio ipsa incidunt maiores, doloribus vitae iusto error dolores culpa quisquam eligendi. Harum, quo culpa aliquam odit veniam soluta vel qui! Iure quia aliquid asperiores molestias alias non, vitae id earum nulla quam nisi adipisci minus esse reprehenderit beatae voluptatum similique nemo consectetur. Ipsa dolorem debitis officia? Culpa eaque doloribus ut eos ipsam expedita eveniet optio odit non libero? Sint tempora, magnam dolor esse eius error totam temporibus praesentium reiciendis molestiae corrupti nisi.</Text>
+        </ScrollView>
+       </SafeAreaView>
+    );
+};
+
+export default SchrollScreen;

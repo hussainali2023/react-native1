@@ -12,9 +12,10 @@ import {AppRegistry} from 'react-native';
 // import ClassComponent from "./components/ClassComponent"
 // import Responsive from './components/Responsive1';
 // import ButtonStyle from './components/ButtonStyle';
-import RadioButton from './components/RadioButton';
+// import RadioButton from './components/RadioButton';
+import SchrollScreen from './components/SchrollScreen';
 
 import {name as appName} from './app.json';
 
 // AppRegistry.registerComponent(appName, () => App);
-AppRegistry.registerComponent(appName, () => RadioButton);
+AppRegistry.registerComponent(appName, () => SchrollScreen);
